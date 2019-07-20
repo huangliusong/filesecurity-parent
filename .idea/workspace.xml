@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <first_editor relative-caret-position="101">
+                <caret line="9" selection-start-line="9" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -273,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563610328499</updated>
-      <workItem from="1563610332818" duration="3313000" />
+      <workItem from="1563610332818" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;">
       <created>1563612379227</created>
@@ -310,11 +310,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563613762984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="## Requirements&#10;&#10;* Java 8+ and &#10;* Spring Boot 1.5.7+&#10;* Maven 3.3.9+">
+      <created>1563613782988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613782988</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)&#10;[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()&#10;[![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)&#10;[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)">
+      <created>1563613796255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613796255</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3313000" />
+    <option name="totallyTimeSpent" value="3401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -339,8 +353,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.6060606" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17668097" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.6060606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17668097" />
       <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Theme Preview" />
@@ -366,7 +380,9 @@
     <MESSAGE value="s" />
     <MESSAGE value="## push&#10;&gt; mvn clean package deploy" />
     <MESSAGE value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
+    <MESSAGE value="## Requirements&#10;&#10;* Java 8+ and &#10;* Spring Boot 1.5.7+&#10;* Maven 3.3.9+" />
+    <MESSAGE value="[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)&#10;[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()&#10;[![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)&#10;[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)&#10;[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()&#10;[![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)&#10;[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -389,8 +405,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <first_editor relative-caret-position="101">
+            <caret line="9" selection-start-line="9" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
