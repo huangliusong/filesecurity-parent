@@ -20,10 +20,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="7" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="7" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -264,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563610328499</updated>
-      <workItem from="1563610332818" duration="3169000" />
+      <workItem from="1563610332818" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;">
       <created>1563612379227</created>
@@ -287,11 +296,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563613585852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="## push&#10;&gt; mvn clean package deploy">
+      <created>1563613638696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613638696</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;">
+      <created>1563613762983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563613762984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3169000" />
+    <option name="totallyTimeSpent" value="3313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -341,7 +364,9 @@
     <MESSAGE value="&#10;&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;" />
     <MESSAGE value="https://github.com/huangliusong1994/filesecurityspringboot" />
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="## push&#10;&gt; mvn clean package deploy" />
+    <MESSAGE value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -356,16 +381,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="324">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="7" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="7" />
+          <first_editor relative-caret-position="190">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
