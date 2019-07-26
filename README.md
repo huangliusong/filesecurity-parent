@@ -41,6 +41,4 @@ filesecurity-parent
 [INFO] Finished at: 2019-07-26T23:13:11+08:00
 [INFO] Final Memory: 16M/210M
 [INFO] ------------------------------------------------------------------------
-huangliusng:filesecurity-parent liusonghuang$ 
-
 ~~~
