@@ -23,7 +23,7 @@ filesecurity-parent
 <dependency>
   <groupId>top.huangliusong2019</groupId>
   <artifactId>filesecurity-parent</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1.2-SNAPSHOT</version>
   <type>pom</type>
 </dependency>
 ~~~
