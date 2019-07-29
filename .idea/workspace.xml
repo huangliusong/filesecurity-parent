@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="6206ca6e-fd88-47ac-80cb-9517ce24828d" name="Default" comment="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.2-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;">
+    <list default="true" readonly="true" id="6206ca6e-fd88-47ac-80cb-9517ce24828d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesecurity-parent.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="1319">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
@@ -74,8 +73,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="65" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="835" />
   </component>
@@ -246,7 +245,7 @@
       <workItem from="1564295118950" duration="234000" />
       <workItem from="1564297233985" duration="714000" />
       <workItem from="1564300373577" duration="727000" />
-      <workItem from="1564367402011" duration="3887000" />
+      <workItem from="1564367402011" duration="5166000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;">
       <created>1563612379227</created>
@@ -325,14 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564154475580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change to &quot;-SNAPSHOT&quot;">
+      <created>1564371432458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564371432458</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13494000" />
+    <option name="totallyTimeSpent" value="14773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -356,7 +362,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.17575757" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.1139394" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -424,7 +430,8 @@
     <MESSAGE value="https://github.com/huangliusong1994/filesecurity-parent" />
     <MESSAGE value="[INFO] ------------------------------------------------------------------------&#10;[INFO] BUILD SUCCESS&#10;[INFO] ------------------------------------------------------------------------&#10;[INFO] Total time: 29.995 s&#10;[INFO] Finished at: 2019-07-26T23:13:11+08:00&#10;[INFO] Final Memory: 16M/210M&#10;[INFO] ------------------------------------------------------------------------&#10;huangliusng:filesecurity-parent liusonghuang$" />
     <MESSAGE value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.2-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.2-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
+    <MESSAGE value="change to &quot;-SNAPSHOT&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to &quot;-SNAPSHOT&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -565,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        <state relative-caret-position="1319">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
