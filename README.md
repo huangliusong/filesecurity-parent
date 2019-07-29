@@ -7,8 +7,14 @@ filesecurity-parent
 [![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://travis-ci.org/huangliusong/filesecurity-parent)
 
 
-## spring-starter
-[filesecurity-spring-boot](https://github.com/huangliusong1994/filesecurityspringboot)
+## Dependency
+
+### [filesecurity-spring-boot-starter](https://github.com/huangliusong/filesecurity-spring-boot-starter)
+
+### [filesecurity-parent](https://github.com/huangliusong/filesecurity-parent)
+
+### [filesecurity-spring-boot](https://github.com/huangliusong/filesecurityspringboot)
+
 
 ## Requirements
 
