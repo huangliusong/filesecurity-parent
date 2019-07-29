@@ -1,10 +1,10 @@
 # filesecurity-parent
 filesecurity-parent
 
-[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://search.maven.org/)
-[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)]()
+[![Maven central](https://img.shields.io/badge/Maven%20central-v1.1-red.svg)](https://oss.sonatype.org/#nexus-search;quick~filesecurity-parent)
+[![top](https://img.shields.io/badge/build-top.huangliusong2019-green.svg)](https://github.com/huangliusong/filesecurity-parent)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Sonatype%20Nexus-v1.1-blue.svg)](https://oss.sonatype.org/content/repositories/snapshots/top/huangliusong2019/)
-[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/huangliusong1994/filesecurityspringboot)
+[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://travis-ci.org/huangliusong/filesecurity-parent)
 
 
 ## spring-starter
@@ -23,8 +23,7 @@ filesecurity-parent
 <dependency>
   <groupId>top.huangliusong2019</groupId>
   <artifactId>filesecurity-parent</artifactId>
-  <version>1.1.2-SNAPSHOT</version>
-  <type>pom</type>
+  <version>1.1.4-SNAPSHOT</version>
 </dependency>
 ~~~
 

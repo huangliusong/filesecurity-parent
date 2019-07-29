@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="6206ca6e-fd88-47ac-80cb-9517ce24828d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,21 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1319">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="32" column="26" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="26" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="475">
+                <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,8 +44,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,7 +237,7 @@
       <workItem from="1564295118950" duration="234000" />
       <workItem from="1564297233985" duration="714000" />
       <workItem from="1564300373577" duration="727000" />
-      <workItem from="1564367402011" duration="5166000" />
+      <workItem from="1564367402011" duration="6324000" />
     </task>
     <task id="LOCAL-00001" summary="&lt;distributionManagement&gt;&#10;        &lt;repository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/repository&gt;&#10;        &lt;snapshotRepository&gt;&#10;            &lt;id&gt;snapshots&lt;/id&gt;&#10;            &lt;url&gt;https://oss.sonatype.org/content/repositories/snapshots/&lt;/url&gt;&#10;        &lt;/snapshotRepository&gt;&#10;    &lt;/distributionManagement&gt;">
       <created>1563612379227</created>
@@ -331,11 +323,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564371432458</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- 绑定source插件到Maven的生命周期,并在生命周期后执行绑定的source的goal --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- 绑定source插件到Maven的生命周期 --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--在生命周期后执行绑定的source插件的goals --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;">
+      <created>1564379873579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564379873579</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- Bind the source plug-in to Maven's life cycle and perform the goal of the bound source after the life cycle --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- Bind the source plug-in to Maven lifecycle --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--Execute goals for the bound source plug-in after the lifecycle --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;">
+      <created>1564380055195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564380055195</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14773000" />
+    <option name="totallyTimeSpent" value="15931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -362,8 +368,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.1139394" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.38666666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -377,38 +383,39 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.3260606" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3260606" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.17575757" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.38666666" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout-to-restore>
   </component>
@@ -431,7 +438,9 @@
     <MESSAGE value="[INFO] ------------------------------------------------------------------------&#10;[INFO] BUILD SUCCESS&#10;[INFO] ------------------------------------------------------------------------&#10;[INFO] Total time: 29.995 s&#10;[INFO] Finished at: 2019-07-26T23:13:11+08:00&#10;[INFO] Final Memory: 16M/210M&#10;[INFO] ------------------------------------------------------------------------&#10;huangliusng:filesecurity-parent liusonghuang$" />
     <MESSAGE value="&lt;dependency&gt;&#10;  &lt;groupId&gt;top.huangliusong2019&lt;/groupId&gt;&#10;  &lt;artifactId&gt;filesecurity-parent&lt;/artifactId&gt;&#10;  &lt;version&gt;1.1.2-SNAPSHOT&lt;/version&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;" />
     <MESSAGE value="change to &quot;-SNAPSHOT&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to &quot;-SNAPSHOT&quot;" />
+    <MESSAGE value="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- 绑定source插件到Maven的生命周期,并在生命周期后执行绑定的source的goal --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- 绑定source插件到Maven的生命周期 --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--在生命周期后执行绑定的source插件的goals --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;" />
+    <MESSAGE value="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- Bind the source plug-in to Maven's life cycle and perform the goal of the bound source after the life cycle --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- Bind the source plug-in to Maven lifecycle --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--Execute goals for the bound source plug-in after the lifecycle --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;build&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-source-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.0.1&lt;/version&gt;&#10;                &lt;!-- Bind the source plug-in to Maven's life cycle and perform the goal of the bound source after the life cycle --&gt;&#10;                &lt;executions&gt;&#10;                    &lt;execution&gt;&#10;                        &lt;!-- Bind the source plug-in to Maven lifecycle --&gt;&#10;                        &lt;phase&gt;compile&lt;/phase&gt;&#10;                        &lt;!--Execute goals for the bound source plug-in after the lifecycle --&gt;&#10;                        &lt;goals&gt;&#10;                            &lt;goal&gt;jar-no-fork&lt;/goal&gt;&#10;                        &lt;/goals&gt;&#10;                    &lt;/execution&gt;&#10;                &lt;/executions&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;skip&gt;false&lt;/skip&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.5.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;1.8&lt;/source&gt;&#10;                    &lt;target&gt;1.8&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -560,20 +569,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="32" column="26" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1319">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="475">
+            <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
